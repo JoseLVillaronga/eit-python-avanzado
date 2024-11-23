@@ -1,0 +1,25 @@
+cadena = " esta es una prueba con Python :) :)"
+#           0123456
+print("Longitud de la cadena:", len(cadena))
+print("Representación:", type(cadena))
+
+print(cadena.upper())
+print(cadena.lower())
+print(cadena.capitalize())
+#cadena = cadena.strip()
+print(id(cadena))
+print(cadena.strip().capitalize())
+print(id(cadena.strip().capitalize()))
+
+print(cadena.count(" "))
+print(cadena.title())
+print("123134654".isdecimal())
+print("123134654fff".isdecimal())
+print("123134654fff".isalpha())
+print("fff".isalpha())
+print("fff aaa".isalpha())
+print(cadena.startswith("es"))
+print(cadena.startswith(" es"))
+print(cadena.replace("es","Es"))
+print(cadena.find("t"))
+print(cadena.find("t",4))
