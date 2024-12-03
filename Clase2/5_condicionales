@@ -1,0 +1,44 @@
+edad = int(input("Edad: "))
+if edad < 0 or edad >= 130:
+    print("Datos incorrectos")
+elif edad < 13:
+    print("eres niño")
+elif edad < 18:
+    print("eres adolescente")
+elif edad < 65:
+    print("eres adulto")
+elif edad < 130:
+    print("eres anciano")
+
+# Alt 1
+"""
+Convertir el siguiente código con bloques if-elif-else
+para evitar anidaciones
+
+edad = int(input("Edad: "))
+
+if edad < 13:
+    print("eres niño")
+else:
+    if edad < 18:
+        print("eres adolescente")
+    else:
+        if edad < 65:
+            print("eres adulto")
+        else:
+            if edad < 130:
+                print("eres anciano")
+"""
+
+edad = int(input("Edad: "))
+
+if edad < 0 or edad >= 130:
+    print("Datos incorrectos")
+elif edad < 13:
+    print("eres niño")
+elif edad < 18:
+    print("eres adolescente")
+elif edad < 65:
+    print("eres adulto")
+elif edad < 130:
+    print("eres anciano")
