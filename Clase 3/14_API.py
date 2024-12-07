@@ -1,7 +1,7 @@
 import requests
 from datetime import datetime
 
-API_KEY = "77e0ef2391beb0447e0edefa6ccc134b"
+API_KEY = "[API Key]"
 ciudad = "Rafael Calzada"
 URL = (
     "https://api.openweathermap.org/data/2.5/weather"
